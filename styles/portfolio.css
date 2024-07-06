@@ -50,14 +50,40 @@ nav a {
 /* header styles */
 .header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 160px;
+    padding: 30px 30px 0px 160px;
     display: flex;
     align-items: center;
+    justify-content: space-between
+}
+
+.banner-content {
+    max-width: 500px;
+    ;
 }
 
 .banner .profile-pic {
     width: 400px;
+}
+
+.banner-greeting {
+    font-size: 35px;
+    margin-bottom: 0;
+    color: #474747;
+
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.description {
+    margin: 20px 0 20px 0;
 }
