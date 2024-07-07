@@ -80,3 +80,36 @@ nav span {
 .image1 {
     width: 400px;
 }
+
+/* about me section styles */
+.about {
+    background-color: #FFF8F3;
+    margin: 100px 150px;
+    padding: 70px;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    color: #181818;
+}
+
+.section-description {
+    color: #757575;
+    margin: 10px 45px;
+}
+
+.about-info-container {
+    display: flex;
+    padding: 10px 50px;
+}
+
+.about-info-title {
+    padding-left: 15px;
+    color: #757575;
+}
+
+.about-info-description {
+    padding-right: 20px;
+    color: #474747;
+}
